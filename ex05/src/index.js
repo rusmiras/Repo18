@@ -29,4 +29,4 @@ for (const [key, value] of shoppingList.entries()) {
     console.log([key, value]);
 }
 // Only change code above this line
-//module.exports = { shoppingList, arrKey, arrValue };
+module.exports = { shoppingList, arrKey, arrValue };
