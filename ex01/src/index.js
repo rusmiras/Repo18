@@ -3,10 +3,12 @@ let myArr = [];
 function* multiplication(x) {
     for (let i = 0; i < x; i++){
         x *= 2;
-        yield x;
+        yield x; 
         myArr.push(x);
-    }
+    } 
+  
 }
+console.log(myArr);
 let num = multiplication(3);
 for (i = 0; i < 3; i++){
     console.log(num.next().value);
