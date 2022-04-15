@@ -20,6 +20,7 @@ header {
     padding-left: 30px;
     text-align: center;
     width: 40%;
+    color: white;
 }
 
 #newsletter {
@@ -108,7 +109,6 @@ li a {
     height: 500px;
     text-align: center;
     color: white;
-    margin: auto;
 }
 #showcase .container{
     display: inline-block;
@@ -127,10 +127,11 @@ footer {
     background-color: orangered;
     text-align: center;
     color: white;
+    bottom: 0;
 }
 img{
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
 }
 #boxes .container{
     display: grid;
