@@ -26,17 +26,15 @@ function* insideGenerator3() {
     }
 }
 const iterator = myGenerator();
-const fifteenArray = [];
+let fifteenArray = [];
 for (let i = 0; i <= 15; i++) {
     fifteenArray.push(iterator.next().value);
-    
+   
     if (fifteenArray[i] === undefined) {
-        fifteenArray[i] += "!";
-    }
-    else {
-        fifteenArray[i] += "#";
-    }
+        fifteenArray[i]+='!';
+     }
 }
+fifteenArray = fifteenArray.join('#, ');
 console.log(fifteenArray);
 // Only change code above this line
 module.exports = { fifteenArray, myGenerator };
