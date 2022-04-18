@@ -5,10 +5,8 @@ function* multiplication(x) {
         x *= 2;
         yield x; 
         myArr.push(x);
-    } 
-  
+    }   
 }
-
 let num = multiplication(3);
 for (i = 0; i < 3; i++){
     console.log(num.next().value);
